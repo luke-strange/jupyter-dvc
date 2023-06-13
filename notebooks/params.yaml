@@ -1,0 +1,4 @@
+base:
+  n: 1000
+plot:
+  colour: "b"

@@ -1,0 +1,10 @@
+stages:
+  run_notebook:
+    wdir: ../
+    cmd: >
+      papermill notebooks/random-walk.ipynb
+      outputs/completed_notebook.ipynb
+      -p n ${base.n}
+      -p colour ${plot.colour}
+    deps:
+     - notebooks/random-walk.ipynb
