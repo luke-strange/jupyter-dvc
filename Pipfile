@@ -1,0 +1,6 @@
+[packages]
+pandas = "*"
+dvc = "*"
+notebook = "*"
+matplotlib = "*"
+papermill = "*"
