@@ -8,3 +8,6 @@ ipykernel = "*"
 jupyter = "*"
 black = "*"
 mercury = "*"
+
+[dev-packages]
+ipykernel = "*"

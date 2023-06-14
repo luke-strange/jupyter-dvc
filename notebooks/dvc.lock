@@ -2,9 +2,9 @@ schema: '2.0'
 stages:
   run_notebook:
     cmd: "papermill notebooks/random-walk.ipynb outputs/completed_notebook.ipynb -p
-      n 10 -p colour b\n"
+      n 1000 -p colour b\n"
     deps:
     - path: notebooks/random-walk.ipynb
       hash: md5
-      md5: d8c9d904359eaf3aa5fe0d4ff1173aa8
-      size: 19576
+      md5: 821b1fb34ab78a57edec72e597839e52
+      size: 19665
