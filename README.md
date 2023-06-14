@@ -6,3 +6,6 @@ You must have [pipenv](https://pypi.org/project/pipenv/) installed. Clone the re
 
 # DVC
 Run the pipeline using `dvc repro notebooks/dvc.yaml`. Change parameters in `notebooks/params.yaml` to alter the notebook's output.
+
+# Mercury
+You can launch the interactive notebook from within the `mercury` folder in the terminal using `mercury run`.
