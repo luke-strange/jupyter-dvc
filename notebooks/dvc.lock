@@ -6,5 +6,5 @@ stages:
     deps:
     - path: notebooks/random-walk.ipynb
       hash: md5
-      md5: 821b1fb34ab78a57edec72e597839e52
-      size: 19665
+      md5: d309569925aedfd8e71200c6ac97cdcf
+      size: 2255
