@@ -8,7 +8,7 @@ It's helpful to have windows subsystem for linux, or any kind of virtual linux m
 You must have [pipenv](https://pypi.org/project/pipenv/) installed. Clone the repository and run `pipenv shell` in the `jupyter-dvc` directory to activate the virtual environment. Run `pipenv install` to install the dependencies.
 
 # DVC
-Run the pipeline using `dvc repro notebooks/dvc.yaml`. Change parameters in `notebooks/params.yaml` to alter the notebook's output.
+Run the pipeline using `dvc repro notebooks/dvc.yaml`. Change parameters in `notebooks/params.yaml` to alter the notebook's output. The completed notebook is stored in `outputs`. In pratice you can save outputs from the notebook to any location, and if you don't need the completed notebook you can add the `outputs` folder to `.gitignore`.
 
 # Mercury
-You can launch the interactive notebook from within the `mercury` folder in the terminal using `mercury run`.
+I incorporated Mercury as a test. You can launch an interactive version of the notebook from within the `mercury` folder with `mercury run`.
